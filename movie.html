@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="movie.css" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script type="text/javascript" src="movie.js"></script>
+        <title>My Favorite Movie by Phil Rajchgot</title>
+    </head>
+    <body>
+        <div id="shadows"></div><!--Creates side shadows-->
+        
+        <section id="infobox">
+            <img id="poster" src="https://upload.wikimedia.org/wikipedia/en/e/e6/Dr._Strangelove_poster.jpg"/>
+            
+            <h1 class="title">Dr. Strangelove</h1>
+            <p class="subtitle">Or: How I Learned To Stop Worrying And Love The Bomb</p> 
+
+            <ul id="credits">
+                <li><strong>Directed by</strong> Stanley Kubrick</li>
+                <br>
+                <li><strong>Screenplay</strong></li>
+                <li>Stanley Kubrick</li>
+                <li>Terry Southern</li>
+                <li>Peter George</li>
+                <br>
+                <li><strong>Starring</strong> </li>
+                <li>Peter Sellers</li>
+                <li>George C. Scott</li>
+                <li>Slim Pickens</li>
+            </ul>
+
+            <div class="clear"></div>
+            
+            <ul id="tags">
+                <li>comedy</li>
+                <li>nuclear</li>
+                <li>war</li>
+                <li>kubrick</li>
+                <li>b&w</li>
+                <li>dark</li>
+                <li>satire</li>
+            </ul>
+            
+            <form name="suggest">
+                <input type="text" id="suggested-tag" name="tag" placeholder="Suggest a tag!"/>
+                <input type="button" id="send-button" name="send" value="Send"/>
+            </form>
+
+        </section>
+
+        <section id="trailer">
+            <iframe id="video" src="https://www.youtube.com/embed/pgd_aJBBRfs" frameborder="0" allowfullscreen></iframe>
+        </section>
+        
+        <section id="synopsis">
+            <p class="subtitle">
+                A psychotic general sets humanity on a dangerous path, 
+                and the world scrambles to prevent total nuclear annihilation.
+            </p>
+            <p id="synopsis-text">
+                U.S. Air Force General Jack Ripper goes completely and utterly mad, 
+                and sends his bomber wing to destroy the U.S.S.R. He suspects that 
+                the communists are conspiring to pollute the "precious bodily fluids" 
+                of the American people. The U.S. president meets with his advisors, 
+                where the Soviet ambassador tells him that if the U.S.S.R. is hit by 
+                nuclear weapons, it will trigger a "Doomsday Machine" which will destroy 
+                all plant and animal life on Earth. Peter Sellers portrays the three men 
+                who might avert this tragedy: British Group Captain Lionel Mandrake, the 
+                only person with access to the demented Gen. Ripper; U.S. President 
+                Merkin Muffley, whose best attempts to divert disaster depend on placating 
+                a drunken Soviet Premier and the former Nazi genius Dr. Strangelove, who 
+                concludes that "such a device would not be a practical deterrent for reasons 
+                which at this moment must be all too obvious". Will the bombers be stopped
+                in time, or will General Jack Ripper succeed in destroying the world?
+                <br><em>(Colin Tinto, IMDb)</em>
+            </p>
+        </section>
+        <div class="clear"></div>
+        
+        <section id="reviews">
+            <div class="review">
+                <p class=review-text>Seen after 30 years, "Dr. Strangelove" seems remarkably fresh and undated - a clear-eyed, irreverant, dangerous satire. And its willingness to follow the situation to its logical conclusion - nuclear annihilation - has a purity that today's lily-livered happy-ending technicians would probably find a way around. Its black and white photography helps, too, putting an unadorned face on its deadly political paradoxes. If movies of this irreverence, intelligence and savagery were still being made, the world would seem a younger place.</p>
+                <p class="review-author">Roger Ebert</p>
+            </div>
+            
+            <div class="review">
+                <p class=review-text>Like most of his work, Stanley Kubrick's deadly black satirical comedy-thriller on cold war madness and its possible effects (1964) has aged well: the manic, cartoonish performances of George C. Scott, Sterling Hayden, and Peter Sellers (in three separate roles, including the title part) look as brilliant as ever, and Kubrick's icy contempt for 20th-century humanity may find its purest expression in the figure of Strangelove himself, a savage extrapolation of a then-obscure Henry Kissinger conflated with Wernher von Braun and Dr. Mabuse to suggest a flawed, spastic machine with Nazi reflexes that ultimately turns on itself. With Peter Bull, Keenan Wynn, Slim Pickens, and James Earl Jones.</p>
+                <p class="review-author">Jonathan Rosenbaum</p>
+            </div>
+            
+            <div class="review">
+                <p class=review-text>By a whopping margin, this is Kubrick's most radical film and greatest dramatic gamble. It was the director's idea, after steeping himself in game theory and end-of-the-world scenarios, to go for vicious comedy.</p>
+                <p class="review-author">Joshua Rothkopf</p>
+            </div>
+            
+            <div class="review">
+                <p class=review-text>Because of its uncanny insight and frighteningly prescient satirical edge, Dr. Strangelove is a document of its time and also timeless. It held onto its relevancy by being bitter, cynical, and thinking absolutely the worst of people.</p>
+                <p class="review-author">Simon Miraudo</p>
+            </div>
+        </section>
+    </body>
+</html>
